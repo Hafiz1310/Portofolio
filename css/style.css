@@ -346,13 +346,6 @@ footer {
   .hero { min-height: auto; padding-top: 125px; }
   .profile-frame { max-width: 310px; margin-top: 35px; }
   .profile-frame img { height: 350px; }
-}
-
-@media (max-width: 575px) {
-  .hero h1 { letter-spacing: -1.5px; }
-  .section { padding: 52px 0; }
-  .page-header { padding-top: 120px; }
-  .card-body-custom { padding: 18px; }
   .home-info-card {
     padding: 16px 12px;
     text-align: center;
@@ -372,4 +365,11 @@ footer {
     margin-top: 10px !important;
     font-size: .75rem;
   }
+}
+
+@media (max-width: 575px) {
+  .hero h1 { letter-spacing: -1.5px; }
+  .section { padding: 52px 0; }
+  .page-header { padding-top: 120px; }
+  .card-body-custom { padding: 18px; }
 }
